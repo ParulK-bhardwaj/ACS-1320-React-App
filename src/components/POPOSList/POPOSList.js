@@ -10,7 +10,6 @@ import { useState } from 'react';
 // POPOSList is responsible for rendering its children contibuting to UI.
 // Components represent UI elements.
 
-
 export default function POPOSList() {
     // use state for search feature.
     const [ query, setQuery ] = useState('')

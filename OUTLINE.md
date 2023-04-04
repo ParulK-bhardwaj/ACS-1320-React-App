@@ -10,6 +10,14 @@
             - NavLink: About
         - Button
             - RandomSpace (Show me a random space)
+                - linked to the details/<id>
+                    - Space Details
+                        - Image
+                        - Title
+                        - Description
+                        - hours
+                        - feature icon list 
+                        - Latitude logitude
         - Input
             - Search by title and address (Not case sensitive)
             - button
@@ -42,9 +50,5 @@
         - Page title: SFPOPOS
         - Paragraph: Site Description
         - Image
-    
-        
-
-
-        
-    
+    - Register
+        - Form

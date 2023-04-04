@@ -5,6 +5,18 @@ React is a library for creating user interfaces.
 # Screenshot
 ![SFPOPOS Site](SFPOPOS-Site-React.png)
 
+# Outline
+[Outline Link](OUTLINE.md)
+
+# Wireframe
+![Home Page Wireframe - Mobile & Desktop](https://user-images.githubusercontent.com/111934039/229264016-b14de219-1645-4b97-ac54-473bf696516b.png)
+
+![About us Page Wireframe - Mobile & Desktop](https://user-images.githubusercontent.com/111934039/229264085-32e13e36-bb73-4d73-9c80-42c23af4acb7.png)
+
+![Space Details Page Wireframe - Mobile & Desktop](https://user-images.githubusercontent.com/111934039/229264120-80c8a035-e104-464d-974d-d9a3563e87ac.png)
+
+![Signup Page Wireframe - Mobile & Desktop](https://user-images.githubusercontent.com/111934039/229264184-92592e82-9255-46a6-a819-15acbff1ee34.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -17,14 +17,14 @@ A fr is a unit that represent a fraction of the space available. */
 /* A media query is a rule that is only applied some times or under certain circumstances. 
 Used media queries here to make adjustments for smaller screens*/
 /* the number of columns is changed to two equal columns when the screen is 960px or smaller. */
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 	.POPOSList {
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
 /* Small screens mobile */
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 	.POPOSList {
 		grid-template-columns: 1fr;
 	}

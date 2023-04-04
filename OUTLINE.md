@@ -12,40 +12,45 @@
                 - linked to the details/<random id>
         - Button
             - Register: 
-                - linked to the register page               
+                - linked to the register page
+
             - List/Home
                 - Input: Search Box
-                    - Search by title and address (Not case sensitive)
+                    - Search public spaces by title and address (Not case sensitive)
                     - Button
-                        - submit
+                        - Submit
                 - Content / Spaces
-                    - query
+                    - query that came from the search 
                     - set query
                     - Spaces
                         - data.filter() callback
                         - map() callback
-                        - Card
-                            - img
+                        - Card: Spaces Card
+                            - Image
                                 - Public space image url
                                 - linked to the details/<id>
-                                    - Space Details
-                                        - Image
-                                        - Title
-                                        - Description
-                                        - Hours
-                                        - Feature icon list 
-                                        - Latitude logitude
-                            - name
+                                    - Content/ Space Details
+                                        - Page Title: Name of the SFPOPOS Space 
+                                        - Paragraph: Details
+                                            - Description: Description of the SFPOPOS Space
+                                            - Hours: Hours of Operation
+                                            - Feature icon list: Emojis of Features Available at the space
+                                            - Latitude logitude: Coordinates of the space
+                                        - Image: Image of the SFPOPOS Space
+                            - Name
                                 - linked to the details/<id>
-                            - address
+                            - Address
                                 - linked to the details/<id>
-                            - hour
+                            - Hour
             - About
-                - Page title: SFPOPOS
+                - Page title: About
                 - Paragraph: Site Description
-                - Image
+                - Image: Image of SFPOPOS space
             - Register
-                - Register for our News letter
+                - Title: Register for our News letter
+                - Paragraph - Description 
                 - Sign up Form
+                    - Text input for First name and Last lame and Emaill
+                    - Button: Register
     - Footer
-        - Content and date
+        - Content and date: Parul Bhardwaj - Copyright @CurrentYear

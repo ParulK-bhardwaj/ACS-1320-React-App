@@ -4,6 +4,17 @@ React is a library for creating user interfaces.
 
 # Screenshot
 ![SFPOPOS Site](SFPOPOS-Site-React.png)
+# Mobile
+![image](https://user-images.githubusercontent.com/111934039/232145387-13f782fd-b066-482c-b72f-11128fd2a1b3.png)
+![image](https://user-images.githubusercontent.com/111934039/232145507-c19ce87f-8edd-4316-bddf-858974d313e2.png)
+![image](https://user-images.githubusercontent.com/111934039/232145585-adb6e274-6e62-4437-93cb-88df98c42c43.png)
+![image](https://user-images.githubusercontent.com/111934039/232145662-8cb69606-2b7c-457c-978c-d893d63c207a.png)
+
+## Desktop
+![image](https://user-images.githubusercontent.com/111934039/232145961-52b9f265-a18e-487b-ae59-eacc35a3e1fe.png)
+
+![image](https://user-images.githubusercontent.com/111934039/232145831-c90ba19a-ae90-4b2b-b814-8302362b9e15.png)
+
 
 # Outline
 [Outline Link](OUTLINE.md)

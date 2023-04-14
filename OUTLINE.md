@@ -9,12 +9,13 @@
             - NavLink: Home
             - NavLink: About
         - Button
-            - RandomSpace (Show me a random space)
+            - RandomSpace: Show me a random space
+                -  linked to the details/<random id>
         - Input
             - Search by title and address (Not case sensitive)
             - button
                 - submit
-        - Content / Spaces List
+        - Content / Spaces List: List
             - query
             - set query
             - Spaces
@@ -42,7 +43,6 @@
         - Page title: SFPOPOS
         - Paragraph: Site Description
         - Image
-    
         
 
 

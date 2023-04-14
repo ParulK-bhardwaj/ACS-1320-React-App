@@ -1,0 +1,54 @@
+.Form-with-title {
+   border: 0.5px solid black;
+   padding: 20px 120px 20px 120px;
+   display: inline-block;
+}
+
+.Form-with-title h2 {
+    margin-top: 0;
+}
+
+.Name-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Name-form div {
+    margin-right: 0;
+}
+
+.Name-form div input {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.Email-form {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Form-with-title form div input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media only screen and (max-width: 820px) {
+    .Form-with-title {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .Name-form {
+        display: block;
+    }
+    .Name-form div input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .Form-with-title {
+        padding: 5px;
+    }
+}

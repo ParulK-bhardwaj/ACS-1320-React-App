@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App/App.js';
 import POPOSList from './components/POPOSList/POPOSList.js';
 import About from './components/About/About';
+import Register from './components/Register/Register';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails'
 import reportWebVitals from './reportWebVitals';
 // HashRouter and BrowserRouter are two options. 
@@ -20,6 +21,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
+        <Route path="register" element={<Register />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>

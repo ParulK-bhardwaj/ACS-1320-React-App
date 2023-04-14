@@ -19,6 +19,9 @@ function PageHeader() {
                 <NavLink 
                     className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                     to="/about">About</NavLink>
+                <NavLink 
+                    className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
+                    to="/register">Register</NavLink>
                 <RandomSpace />
                 </div>
             </header>

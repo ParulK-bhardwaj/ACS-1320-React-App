@@ -1,6 +1,8 @@
  /* Stretch Challenge Footer component Style */
-.Footer {
-    padding:10px 0;
-    background-color:#060000;
-    color:#fff4f4;
+
+  .Footer {
+    height: 50px;
+    background-color: #060000;
+    color: #fff4f4;
+    padding: 10px 0;
   }

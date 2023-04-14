@@ -8,8 +8,10 @@ import { Outlet } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <PageHeader />
-      <Outlet />
+      <div className='App-content'>
+        <PageHeader />
+        <Outlet />
+	    </div>
       <Footer />
     </div>
   );

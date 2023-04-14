@@ -1,5 +1,15 @@
+/* Strecth challenege: Sticky Footer  */
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.App .App-content {
+  flex: 1 0 auto;
+}
+.Footer {
+  flex-shrink: 0;
 }
 
 .App-logo {

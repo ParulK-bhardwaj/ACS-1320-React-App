@@ -8,7 +8,7 @@ function POPOSFeatureList(props) {
     return <POPOSFeature key={feature} name={feature} />
     })
 	return (
-    <div className="POPOSFeatureList">{icons}</div>
+    <section className="POPOSFeatureList">{icons}</section>
     )
 }
 

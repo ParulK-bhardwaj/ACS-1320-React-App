@@ -12,7 +12,7 @@ function POPOSSpace(props) {
     // The attributes above set the values of the properties name, image and address props
     const { name, image, address, hours, id } = props
     return (
-        <div className='POPOSSpace'>
+        <section className='POPOSSpace'>
             <Link className='POPOSSpace-title' to={`/details/${id}`}>
                 <img src={`${process.env.PUBLIC_URL}/images/${image}`}
                     width="300"
@@ -25,11 +25,11 @@ function POPOSSpace(props) {
                     {name}
                 </Link>
             </h1>
-            <div className='POPOSSpace-info'>
-                <div>{address}</div>
-                <div className='hours'>{hours}</div>
-            </div>
-        </div>
+            <section className='POPOSSpace-info'>
+                <address>{address}</address>
+                <time className='hours'>{hours}</time>
+            </section>
+        </section>
     )
 };
 

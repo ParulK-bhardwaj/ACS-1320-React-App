@@ -32,7 +32,7 @@ export default function POPOSList() {
         )
     })
     return (
-    <div className="POPOSList">
+    <section className="POPOSList">
         {/* Created the input field for the search feature. */}
         {/* we have created a variable query that holds the value you entered into the field. */}
         <form>
@@ -44,6 +44,6 @@ export default function POPOSList() {
 				<button type="submit">Submit</button>
 		</form>
         { spaces }
-    </div>
+    </section>
     )
 }

@@ -7,13 +7,13 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <div className='App-content'>
+    <main className="App">
+      <section className='App-content'>
         <PageHeader />
         <Outlet />
-	    </div>
+	    </section>
       <Footer />
-    </div>
+    </main>
   );
 }
 

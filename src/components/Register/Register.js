@@ -3,7 +3,7 @@ import "./Register.css"
 
 export default function Register() {
     return (
-        <div className="Register">
+        <article className="Register">
             <h1 className="Register-title">Register for our Newsletter</h1>
             <p className="Register-description">Sign up today to stay up-to-date with all the offers and events and more happening at the publicly accessible spaces(POPOS) in San Francisco.</p>
 
@@ -30,7 +30,6 @@ export default function Register() {
                     <input type="submit" value="Submit"/>
                 </form>
             </div>
-        </div>
-            
+        </article>       
     )
 };

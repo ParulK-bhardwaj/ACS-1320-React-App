@@ -5,11 +5,11 @@ import RandomSpace from '../RandomSpace/RandomSpace';
 
 function PageHeader() {
     return (
-        <div className='PageHeader'>
+        <section className='PageHeader'>
             <header>
                 <h1>SFPOPOS</h1>
-                <div className='Header-Subheader'>San Franciscos Privately Owned Public Spaces</div>
-                <div className='Navigation'>
+                <h2 className='Header-Subheader'>San Franciscos Privately Owned Public Spaces</h2>
+                <nav className='Navigation'>
                 {/* A function to determine what class name should be applied to any link. 
                 React Router will pass an isActive prop. This is a Boolean. 
                 /True when the link is active and False when not. */}
@@ -23,9 +23,9 @@ function PageHeader() {
                     className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                     to="/register">Register</NavLink>
                 <RandomSpace />
-                </div>
+                </nav>
             </header>
-        </div>
+        </section>
     )
   }
   

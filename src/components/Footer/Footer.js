@@ -5,8 +5,8 @@ import './Footer.css';
 export default function Footer() {
     let date =  new Date().getFullYear();
     return(
-        <div className='Footer'>
+        <footer className='Footer'>
             <p>Parul Bhardwaj copyright {date}</p>
-        </div>
+        </footer>
     )
 }

@@ -35,13 +35,14 @@ export default function POPOSList() {
     <section className="POPOSList">
         {/* Created the input field for the search feature. */}
         {/* we have created a variable query that holds the value you entered into the field. */}
-        <form>
+        <form role="search">
 				<input
 					value={query}
 					placeholder="search"
 					onChange={(e) => setQuery(e.target.value)}
+                    aria-label='Search by Title or Address'
 				/>
-				<button type="submit">Submit</button>
+				<button aria-label="To Submit Search" type="submit">Submit</button>
 		</form>
         { spaces }
     </section>

@@ -27,7 +27,7 @@ export default function Register() {
                         <input type="text" id="email" name="email" placeholder="Email"/>
                     </div>
                     
-                    <input type="submit" value="Submit"/>
+                    <input aria-label="To Submit for Registration" type="submit" value="Submit"/>
                 </form>
             </div>
         </article>       
